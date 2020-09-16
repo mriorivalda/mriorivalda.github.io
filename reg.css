@@ -1,0 +1,126 @@
+body{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #005500;
+    background: linear-gradient(#005500, #000);
+}
+.container{
+    width: 850px;
+    margin: auto;
+    background-color: #fff;
+}
+
+.header{
+    padding: 10px;
+}
+.header .riansy{
+    text-indent: 20px;
+    font-size: 38px;
+    font-weight: bold;
+}
+.header .sport{
+    text-indent: 22px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 2px;
+}
+.header a:hover{
+    background-color: #005500;
+    color: #fff;
+}
+.header a{
+    text-decoration: none;
+	color: #005500;
+	padding: 5px 20px;
+	border: 2px solid #005500;
+	transition: 0.7s ease;
+}
+.header ul li{
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+    list-style: none;
+}
+ul li.active a{
+	background-color: #005500;
+    color: #fff;
+}
+.reg {
+    padding: 20px 20px;
+    font-weight: bold;
+      margin: 0 30px;
+}
+
+input[type=text] {
+    width: 53%;
+    padding: 12px 20px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    display: inline-block;
+    border: none;
+    border-bottom: 2px solid #005500;
+    box-sizing: border-box;
+}
+input[type=email]{
+    width: 53%;
+    padding: 12px 20px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    display: inline-block;
+    border: none;
+    border-bottom: 2px solid #005500;
+    box-sizing: border-box;
+}  
+input[type=password]{
+    width: 53%;
+    padding: 12px 20px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    display: inline-block;
+    border: none;
+    border-bottom: 2px solid #005500;
+    box-sizing: border-box;
+}  
+input[type=submit] {
+    width: 20%;
+    background-color: #005500;
+    color: white;
+    padding: 14px 20px;
+    margin: 10px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+  
+input[type=reset] {
+    width: 20%;
+    background-color: #005500;
+    color: white;
+    padding: 14px 20px;
+    margin: 10px 0x;;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+input[type=submit]:hover {
+    background-color: #008800;
+    
+}
+input[type=reset]:hover {
+    background-color: #008800;
+    
+}
+
+.close{
+    background-color: #004400;
+    padding: 10px;
+}
+.close .isiclose{
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 10px;
+}
