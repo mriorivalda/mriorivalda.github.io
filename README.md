@@ -1,2 +1,2 @@
 # mriorivalda.github.io
-first
+first web statik
